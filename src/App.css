@@ -2,7 +2,7 @@ body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(160, 31, 63);
 }
 .center_box{
   display: flex;

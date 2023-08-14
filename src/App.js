@@ -1,9 +1,10 @@
 import './App.css';
-import {Home} from './components'
+import { Home, TypingEffect} from './components'
 function App() {
   return (
   <>
  <Home/>
+ <TypingEffect/>
   </>
   );
 }

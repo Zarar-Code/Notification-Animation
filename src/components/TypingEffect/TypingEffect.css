@@ -1,0 +1,87 @@
+.container_effect{
+margin-top: 20px;
+margin-right: 15px;
+}
+.effect{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+h1{
+    color: white;
+    margin: 0px;
+}
+hr{
+    width: 300px;
+    margin: 0px;
+}
+span{
+    color: yellow;
+    font-weight: bold;
+}
+
+
+/*-----------------------TYPINGEFFECT----------------------*/
+.effect{
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.15rem solid yellow;
+    animation: blink 0.75s step-end infinite, typing 3.5s steps(80);
+
+}
+@keyframes blink {
+    from{
+        border-color: transparent;
+    }
+    50%{
+        border-color:yellow ;
+    }
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+
+/* //----------------------------------------------? */
+
+.Spin{
+    color: white;
+    margin-top: 50px ;
+}
+span8{
+    position: relative;
+    display: inline-block;
+    height: 2rem;
+    vertical-align: bottom;
+    overflow: hidden;
+    color: yellow;
+    margin-left: 8px;
+}
+span4{
+    display: block;
+    animation: animteWord 5s infinite ease;
+}
+@keyframes animteWord {
+    0%{
+        transform: translateY(0%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    100%{
+        transform: translateY(-400%);
+    }
+}
